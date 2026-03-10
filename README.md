@@ -1,15 +1,15 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Bhuvan Sai - Personal Portfolio
 
+Welcome to the repository for my personal portfolio website! This is designed to showcase my skills, projects, and experience as a Software Engineer. 
 
-## Run Locally
+## 🚀 Live Demo
+[View Live Portfolio Here](https://your-vercel-link-goes-here.vercel.app) 
 
-**Prerequisites:**  Node.js
+## 🛠️ Built With
+* **React** - Frontend Library
+* **Vite** - Fast Build Tool
+* **Tailwind CSS** - Utility-first Styling
+* **Framer Motion** - Smooth Animations
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📫 Contact
+Feel free to reach out to me via LinkedIn - www.linkedin.com/in/bhuvansai25 or email at bhuvansaibhuvi@gmail.com.
