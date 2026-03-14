@@ -21,9 +21,11 @@ export const skills: Skill[] = [
 
   // Core
   { name: "DSA", category: "Core", icon: "Algo", isConcept: true },
+  { name: "System Design", category: "Core", icon: "Network", isConcept: true },
   { name: "OOPs", category: "Core", icon: "Box", isConcept: true },
   { name: "LLD", category: "Core", icon: "Layers", isConcept: true },
   { name: "REST APIs", category: "Core", icon: "Globe", isConcept: true },
+  { name: "Microservices", category: "Core", icon: "Blocks", isConcept: true },
   { name: "Agile", category: "Core", icon: "RefreshCw", isConcept: true },
   { name: "SDLC", category: "Core", icon: "Workflow", isConcept: true },
 
@@ -33,6 +35,7 @@ export const skills: Skill[] = [
   { name: "React", category: "Frontend", icon: "react", isConcept: false },
 
   // Cloud & Infra
+  { name: "AWS", category: "Cloud & Infra", icon: "aws", isConcept: false },
   { name: "Azure", category: "Cloud & Infra", icon: "azure", isConcept: false },
   { name: "Docker", category: "Cloud & Infra", icon: "docker", isConcept: false },
 
@@ -49,11 +52,13 @@ export const experiences: Experience[] = [
     role: "Software Engineer",
     period: "Jul 2023 – Present",
     description: [
-      "Engineered backend logic for enterprise-scale applications using server-side JavaScript to automate complex business processes.",
-      "Developed 15+ dynamic client-side scripts to validate user input, improving data accuracy by over 30%.",
-      "Analyzed and optimized application performance, contributing to improved reliability of complex distributed systems.",
-      "Optimized database performance through indexing and query tuning techniques.",
-      "Collaborated in an Agile environment to deliver features in bi-weekly sprints for clients like American Tower and Vulcan Materials."
+      "Reduced compute cost of scheduled reporting jobs by 80% by building an automated cleanup service that detected unused or empty reports and disabled redundant scheduled executions.",
+      "Designed and implemented REST APIs for internal services, incorporating idempotent request handling, rate limiting, and structured error responses to improve service reliability.",
+      "Implemented asynchronous processing using message queues to decouple long-running tasks from request workflows, preventing API timeouts during peak traffic.",
+      "Developed a visualization tool to group contextually related infrastructure alerts (issues) by modeling service dependencies as a graph and applying BFS and Union-Find to identify the root cause and related failures for a bunch of alerts.",
+      "Improved production observability by adding structured logging and monitoring dashboards, enabling faster debugging and proactive alerting for system failures.",
+      "Developed dynamic, asynchronous client-side components to handle state management and real-time form validations, improving data capture accuracy by over 30% and enhancing the overall user experience.",
+      "Mentored 3 junior developers and enforced rigorous code review standards, resulting in a 20% reduction in production bugs over six months."
     ]
   },
   {
@@ -74,7 +79,7 @@ export const projects: Project[] = [
     description: "A high-performance interactive algorithm visualizer for graph algorithms on grids and real-world maps.",
     tags: ["React", "Leaflet", "Algorithms", "Data Structures"],
     features: [
-      "Implemented 7+ algorithms (Dijkstra, A*, BFS) using custom MinHeap for optimal complexity.",
+      "Implemented 7+ algorithms (Dijkstra, A*, BFS..etc) using custom MinHeap data structures, reducing time complexity from O(V²) to O(E log V).",
       "Integrated OpenStreetMap to fetch live road network data.",
       "Visualized real-world routing and navigation logic."
     ],

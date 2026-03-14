@@ -5,7 +5,7 @@ import {
   Code2, Database, Layout, Server, Cloud, 
   Terminal, Cpu, GitBranch, Globe, Settings, Layers,
   ChevronLeft, ChevronRight, Box, RefreshCw, GitMerge,
-  Workflow
+  Workflow, Network, Blocks
 } from 'lucide-react';
 
 const ConceptIconMap: Record<string, any> = {
@@ -16,12 +16,15 @@ const ConceptIconMap: Record<string, any> = {
   RefreshCw: RefreshCw, // For Agile
   Workflow: Workflow, // For SDLC
   GitMerge: GitMerge,
+  Network: Network,
+  Blocks: Blocks,
 };
 
 const ConceptColorMap: Record<string, string> = {
   DSA: "text-blue-400",
   OOPs: "text-orange-400",
   LLD: "text-purple-400",
+  "Microservices Architecture": "text-pink-400",
   "REST APIs": "text-green-400",
   Agile: "text-yellow-400",
   SDLC: "text-red-400",
@@ -39,6 +42,7 @@ const getLogoUrl = (iconKey: string | undefined): string => {
     html5: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
     css3: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
     react: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+    aws: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg',
     azure: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg',
     docker: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
     flask: 'https://cdn.simpleicons.org/flask/white',
