@@ -76,7 +76,9 @@ const Contact = () => {
 
                {/* GitHub Card */}
                <a 
-                href={personalInfo.github}
+                // href={personalInfo.github}
+                href="#"
+                onClick={(e) => e.preventDefault()}
                 target="_blank"
                 rel="noreferrer"
                 className="group flex items-center gap-4 rounded-2xl border border-zinc-800 bg-zinc-900/50 p-5 transition-all hover:border-emerald-500/50 hover:bg-zinc-900"

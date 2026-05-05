@@ -49,6 +49,8 @@ const getLogoUrl = (iconKey: string | undefined): string => {
     django: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg',
     git: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
     servicenow: 'https://www.vectorlogo.zone/logos/servicenow/servicenow-icon.svg',
+    kafka: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg',
+    kubernetes: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg',
   };
   return map[iconKey] || '';
 };

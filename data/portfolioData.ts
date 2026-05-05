@@ -8,7 +8,7 @@ export const personalInfo = {
   linkedin: "https://linkedin.com/in/bhuvansai25",
   github: "https://github.com/bhuvansai25",
   location: "India",
-  bio: "Software Engineer with 2.7+ years of experience in Full-stack application development. I design and build scalable backend services for distributed applications, proficient in Python with a strong foundation in Data Structures and Algorithms.",
+  bio: "Software Engineer with ~3 years of experience building scalable backend services and distributed systems. Proficient in Python with a strong foundation in Data Structures and Algorithms, and experience applying system design principles to build reliable, production-grade applications.",
   heroTagline: "Building scalable distributed systems & solving complex algorithmic problems."
 };
 
@@ -38,6 +38,8 @@ export const skills: Skill[] = [
   { name: "AWS", category: "Cloud & Infra", icon: "aws", isConcept: false },
   { name: "Azure", category: "Cloud & Infra", icon: "azure", isConcept: false },
   { name: "Docker", category: "Cloud & Infra", icon: "docker", isConcept: false },
+  { name: "Kafka", category: "Cloud & Infra", icon: "kafka", isConcept: false },
+  { name: "Kubernetes", category: "Cloud & Infra", icon: "kubernetes", isConcept: false },
 
   // Others
   { name: "Flask", category: "Others", icon: "flask", isConcept: false },
@@ -83,7 +85,7 @@ export const projects: Project[] = [
       "Integrated OpenStreetMap to fetch live road network data.",
       "Visualized real-world routing and navigation logic."
     ],
-    github: "https://github.com/bhuvansai25",
+    github: "",
     link: "https://path-visualizer-navigation.vercel.app/"
   },
   {
@@ -96,7 +98,7 @@ export const projects: Project[] = [
       "Performed feature engineering to support crop recommendation logic.",
       "Published patent 'Indian Crop and Fertilizer Recommendation System using AI and ML'."
     ],
-    github: "https://github.com/bhuvansai25",
+    github: "",
     link: "" 
   }
 ];
